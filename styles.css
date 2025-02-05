@@ -26,6 +26,26 @@
   align-items: center;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 5rem;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem
+}
+
+.picture {
+  flex-basis: 10%;
+}
+
+#random-info {
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
