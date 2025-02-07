@@ -132,7 +132,7 @@ ul {
   align-items: center;
   align-self: center;
   background-color: #e5e7eb;
-  padding: 10rem;
+  padding: 9rem 10rem;
 }
 
 .quote-body {
@@ -162,8 +162,42 @@ body {
 
 .bottom {
   align-self: center;
+  margin: 6rem auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 8px;
+  padding: 4rem 4rem;
+  width: 60%;
+}
+
+.call p,
+.call h2 {
+  margin: 0;
+}
+
+.call p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.sign-up button {
+  border: white solid;
 }
 
 footer {
-  align-self: center;
+  font-size: 18px;;
+  text-align: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  width: 100%;
+  padding: 3rem 0;
 }
