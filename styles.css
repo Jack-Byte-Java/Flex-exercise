@@ -1,4 +1,4 @@
-* {
+body {
   font-family: Roboto, sans-serif;
 }
 
@@ -13,6 +13,10 @@
   justify-content: space-around;
   margin-bottom: 100px;
 
+}
+
+body {
+  margin: 0
 }
 
 .image {
