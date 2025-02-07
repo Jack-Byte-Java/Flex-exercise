@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   font-family: Roboto, sans-serif;
@@ -15,15 +15,14 @@ body {
   display: flex;
   justify-content: space-around;
   margin-bottom: 100px;
-
 }
 
 body {
-  margin: 0
+  margin: 0;
 }
 
 .image {
-  background-color: #6D747D;
+  background-color: #6d747d;
   width: 35%;
   display: flex;
   justify-content: center;
@@ -100,6 +99,9 @@ button {
 
 #random-info {
   text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
 }
 
 ul {
