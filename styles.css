@@ -84,24 +84,38 @@ button {
 .info {
   display: flex;
   flex-direction: column;
-  padding: 1rem 5rem;
+  padding: 2rem 5rem;
+  margin-bottom: 5rem;
+  align-items: center;
 }
 
 .gallery {
   display: flex;
   justify-content: space-evenly;
   padding: 1rem;
+  max-width: 70%;
 }
 
 .picture {
   flex-basis: 10%;
 }
 
+.photo {
+  height: 10rem;
+  width: 10rem;
+  border: #3882f6 solid thick;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
 #random-info {
   text-align: center;
   font-size: 36px;
   font-weight: 900;
-  color: #1F2937;
+  color: #1f2937;
 }
 
 ul {
@@ -116,13 +130,28 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 25%;
   align-self: center;
+  background-color: #e5e7eb;
+  padding: 10rem;
 }
 
-.quote p {
+.quote-body {
   margin: 0;
+  align-self: center;
+  width: 70%;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.quotee {
+  text-align: end;
   align-self: flex-end;
+  margin-right: 10rem;
+  font-size: 18px;
+  color: #1f2937;
+  font-weight: bold;
 }
 
 body {
